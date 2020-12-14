@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --height: 100%;
+  --color: #f8f9fa;
+}
+html, body { height: var(--height); }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.info{ background-color: #17a2b8;color: var(--color)}
+.example-spacer{flex: 1 1 auto}
+.center{display: flex; justify-content: center}
+.mt-4 {margin-top: 50px;}
+.menu-wrapper > a {white-space: normal;margin-left: 10px;}
+.spacer {flex: 1 1 auto;}
+.avatar{ width: 84px;height: 84px}

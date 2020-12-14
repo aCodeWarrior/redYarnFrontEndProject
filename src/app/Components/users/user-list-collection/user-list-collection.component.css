@@ -1,0 +1,4 @@
+.table { margin-top: 50px;width: 100%}
+.table > table {width: 100%;}
+.action {margin-left: 15px;}
+.right { float: right; margin-right: 50px;margin-top: 10px}

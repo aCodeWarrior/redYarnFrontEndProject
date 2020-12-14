@@ -1,0 +1,18 @@
+<app-nav-bar></app-nav-bar>
+<div class="table">
+  <table>
+    <tr>
+      <th>Libellé</th>
+      <th>Actions</th>
+    </tr>
+    <tr *ngFor="let profil of profils">
+      <td>{{profil._libelle}}</td>
+      <td>
+        <a mat-raised-button class="info">Liste {{profil._libelle | lowercase}}</a>
+        <a mat-raised-button>Editer</a>
+        <a mat-raised-button>Supprimer</a>
+      </td>
+    </tr>
+  </table>
+</div>
+
